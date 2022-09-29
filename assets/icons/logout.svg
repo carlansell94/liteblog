@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="105mm" height="105mm" version="1.1" viewBox="0 0 105 105" xmlns="http://www.w3.org/2000/svg">
+ <g stroke-linecap="round" stroke-width="5">
+  <circle cx="52.5" cy="52.5" r="42.5" fill="none" stroke="#fdfdfd" stroke-linejoin="round" style="paint-order:fill markers stroke"/>
+  <path d="m52.5 32.5v35.19" fill="#fff" stroke="#fff"/>
+ </g>
+</svg>

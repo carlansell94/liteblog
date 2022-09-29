@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48mm" height="48mm" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <g stroke="#fff" stroke-linecap="round" stroke-width="3">
+  <circle cx="31.23" cy="24.27" r="8.5" fill="none" stroke-linejoin="round" style="paint-order:fill markers stroke"/>
+  <path d="m36.24 31.32s7.064 8.814 7.064 8.814" fill="#f9f9f9" stroke-linejoin="round"/>
+  <g fill="#fff">
+   <g stroke-opacity=".9978">
+    <path d="m6 6s0.1329 36 0.1329 36"/>
+    <path d="m29.5 6 0.1329 9"/>
+    <path d="m29.5 33.5 0.1329 9"/>
+   </g>
+   <path d="m6 6h23.5" stroke-linejoin="round"/>
+   <path d="m6.133 42 23.5 0.5"/>
+  </g>
+ </g>
+</svg>

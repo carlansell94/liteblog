@@ -1,0 +1,28 @@
+{
+    "name": "carlansell94/liteblog",
+    "description": "A lightweight blogging platform.",
+    "keywords": [
+        "blog", "api", "client"
+    ],
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Carl Ansell",
+            "homepage": "https://www.carlansell.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "michelf/php-markdown": "^2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "*",
+        "squizlabs/php_codesniffer": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "carlansell94\\Liteblog\\": "src"
+        }
+    }
+}
