@@ -1,0 +1,19 @@
+parameters:
+    level: 6
+    paths:
+        - src
+    bootstrapFiles:
+        - constants.php
+    dynamicConstantNames:
+        - DB_HOST
+        - DB_NAME
+        - DB_USER
+        - DB_PASS
+        - DEBUG_MODE
+        - SITE_ROOT
+        - ADMIN_URL
+        - THEME_DIR
+        - SITE_NAME
+        - SITE_TAGLINE
+        - POSTS_PER_PAGE
+        - EXCERPT_LENGTH

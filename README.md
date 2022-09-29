@@ -1,3 +1,6 @@
+![Composer workflow](https://github.com/carlansell94/liteblog-php/actions/workflows/composer.yml/badge.svg?event=push)
+![PHPStan workflow](https://github.com/carlansell94/liteblog-php/actions/workflows/phpstan.yml/badge.svg?event=push)
+
 A lightweight blogging platform written in PHP, using an MVC style structure.
 
 Originally written a few years ago, it has been updated with PHP 8.1 features.
