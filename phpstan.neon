@@ -17,3 +17,4 @@ parameters:
         - SITE_TAGLINE
         - POSTS_PER_PAGE
         - EXCERPT_LENGTH
+    treatPhpDocTypesAsCertain: false
