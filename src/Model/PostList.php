@@ -46,7 +46,13 @@ class PostList
             $status = "1";
         }
 
-        $query = "SELECT *,
+        $query = "SELECT
+                    post_id,
+                    post_slug,
+                    post_title,
+                    post_excerpt,
+                    post_status_id,
+                    post_date,
                     GROUP_CONCAT(
                         DISTINCT(
                             CONCAT_WS(',', category_name, category_slug)

@@ -109,9 +109,6 @@ class Post
                     post_title,
                     post_excerpt,
                     post_content,
-                    post_image,
-                    post_banner,
-                    post_icon,
                     post_status_id,
                     post_date,
                     GROUP_CONCAT(
@@ -197,8 +194,6 @@ class Post
 
         $this->setId($this->db->getLastInsertId());
 
-
-        var_dump($this->added_categories);
         $this->addTags();
         $this->addCategories();
 
@@ -330,8 +325,6 @@ class Post
                     OR
                         post_id = '{$this->id}'
                 ) t2";
-
-        echo $query;
 
         if (!$this->db->runQuery($query)) {
             return false;

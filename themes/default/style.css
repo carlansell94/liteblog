@@ -237,7 +237,7 @@ div.meta > .post-date {
     padding-left: 0;
 }
 
-div#meta > p {
+:is(div#meta, div.meta) > p {
     display: inline-block;
     font-size: 0.9rem;
     font-weight: bold;
@@ -248,7 +248,7 @@ div.meta > img {
     vertical-align: middle;
 }
 
-div#meta > img {
+:is(div#meta, div.meta) > img {
     max-height: 21px;
     vertical-align: text-top;
     padding: 0 0.5rem 0 1.5rem;
