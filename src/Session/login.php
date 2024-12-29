@@ -17,7 +17,7 @@ if (defined('SITE_NAME')) {
         <header>
             <h1><?= $title ?></h1>
         </header>
-        <form name="login" action="login" method="post">
+        <form name="login" action="<?= $_SERVER['REQUEST_URI'] ?>" method="post">
             <?php if (isset($_SESSION['login_fails'])) : ?>
                 <div id='login-error'>Incorrect Username/Password</div>
             <?php endif; ?>

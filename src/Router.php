@@ -56,13 +56,13 @@ class Router
 
     public function getLoginPage(): void
     {
-        header('Location: /' . SITE_ROOT . '/' . ADMIN_URL . '/login');
+        header('Location: /' . SITE_ROOT . '/' . ADMIN_URL . '/login/');
         die();
     }
 
     public function logout(): void
     {
-        header('Location: ' . SITE_ROOT . '/');
+        header('Location: /' . SITE_ROOT . '/');
         Session::end();
         die();
     }
@@ -81,9 +81,9 @@ class Router
             $uri = str_replace(SITE_ROOT, '', $uri);
         }
 
-        if (str_starts_with($uri, '/' . ADMIN_URL)) {
+        if (str_starts_with($uri, '/' . ADMIN_URL) || str_starts_with($uri, ADMIN_URL)) {
             $this->is_admin_url = true;
-            $uri = str_replace('/' . ADMIN_URL, '', $uri);
+            $uri = str_replace(ADMIN_URL, '', $uri);
         }
 
         $route = array_filter(explode("/", parse_url(
@@ -215,7 +215,7 @@ class Router
             }
 
             Session::login();
-            header('Location: /' . SITE_ROOT . '/' . ADMIN_URL);
+            header('Location: /' . SITE_ROOT . '/' . ADMIN_URL . '/');
             die();
         }
 

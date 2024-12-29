@@ -34,25 +34,25 @@
     <nav id="main-header-nav">
         <ul>
             <li>
-                <a href="<?= $this->getRootUrl() ?>posts">
+                <a href="<?= $this->getRootUrl() ?>posts/">
                     <img src="<?= self::getAssetsUrl() ?>icons/post.svg" alt="Posts" />
                     Posts
                 </a>
             </li>
             <li>
-                <a href="<?= $this->getRootUrl() ?>categories">
+                <a href="<?= $this->getRootUrl() ?>categories/">
                     <img src="<?= self::getAssetsUrl() ?>icons/categories.svg" alt="categories" />
                     Categories
                 </a>
             </li>
             <li>
-                <a href="<?= $this->getRootUrl() ?>tags">
+                <a href="<?= $this->getRootUrl() ?>tags/">
                     <img src="<?= self::getAssetsUrl() ?>icons/tags.svg" alt="Tags" />
                     Tags
                 </a>
             </li>
             <li>
-                <a href="/<?= SITE_ROOT ?>">
+                <a href="/<?= SITE_ROOT ?>/">
                     <img src="<?= self::getAssetsUrl() ?>icons/preview.svg" alt="Preview" />
                     Preview Site
                 </a>
@@ -62,7 +62,7 @@
     <nav id="account-controls">
         <ul>
             <li>
-                <a href="<?= $this->getRootUrl() ?>logout">
+                <a href="<?= $this->getRootUrl() ?>logout/">
                     <img src="<?= self::getAssetsUrl() ?>icons/logout.svg" alt="Logout" />
                     Logout
                 </a>
