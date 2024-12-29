@@ -8,14 +8,22 @@ use Michelf\MarkdownExtra;
 class Post
 {
     private ?int $post_id = null;
-    private ?string $post_slug;
+    /** @phpstan-ignore-next-line */
     private ?string $post_date = null;
+    /** @phpstan-ignore-next-line */
     private ?string $post_title = null;
+    /** @phpstan-ignore-next-line */
     private ?string $post_excerpt = null;
+    /** @phpstan-ignore-next-line */
     private ?string $post_content = null;
+    /** @phpstan-ignore-next-line */
+    private ?string $last_updated = null;
+    /** @phpstan-ignore-next-line */
     private PostStatus|int|null $post_status_id = null;
+    private string $post_slug;
     private string $categories;
     private string $tags;
+    
 
     public function setId(int $id): void
     {
@@ -29,9 +37,7 @@ class Post
 
     public function setValue(string $key, int|string $value): void
     {
-        if ($value !== null) {
-            $this->$key = $value;
-        }
+        $this->$key = $value;
     }
 
     public function getUri(): string

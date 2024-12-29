@@ -15,7 +15,7 @@ class CategoryList
     ) {
     }
 
-    public function setLimits(int $limit, int $offset = null): void
+    public function setLimits(int $limit, ?int $offset = null): void
     {
         $this->limit = $limit;
         $this->offset = $offset;

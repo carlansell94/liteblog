@@ -6,8 +6,11 @@ class Category
 {
     private ?int $category_id = null;
     private ?string $category_slug = null;
+    /** @phpstan-ignore-next-line */
     private ?string $category_name = null;
+    /** @phpstan-ignore-next-line */
     private ?int $post_count = null;
+    /** @phpstan-ignore-next-line */
     private ?string $latest_post = null;
 
     public function setUri(int|string $uri): void

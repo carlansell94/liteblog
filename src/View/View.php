@@ -4,13 +4,21 @@ namespace carlansell94\Liteblog\View;
 
 use carlansell94\Liteblog\Config\Config;
 use carlansell94\Liteblog\Session\Session;
+use carlansell94\Liteblog\Lib\Post;
 
 class View
 {
     private ?int $page = null;
     private ?int $max_page = null;
     private ?string $page_title = null;
+    /** @phpstan-ignore-next-line */
+    private ?Post $post = null;
+    private mixed $post_list = null;
+    private mixed $category_list = null;
+    private mixed $tag_list = null;
+    private mixed $categories = null;
     protected static ?string $theme_dir = null;
+    public mixed $elements = null;
 
     public function __construct(
         private ?string $template = null,

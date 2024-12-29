@@ -20,7 +20,7 @@ class Session
         self::updateTimestamp();
     }
 
-    final public static function failedLogin(string $reason = null): void
+    final public static function failedLogin(?string $reason = null): void
     {
         if (isset($_SESSION['login_fails'])) {
             $_SESSION['login_fails']++;

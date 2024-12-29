@@ -6,8 +6,11 @@ class Tag
 {
     private ?int $tag_id = null;
     private ?string $tag_slug = null;
+    /** @phpstan-ignore-next-line */
     private ?string $tag_label = null;
+    /** @phpstan-ignore-next-line */
     private ?int $post_count = null;
+    /** @phpstan-ignore-next-line */
     private ?string $latest_post = null;
 
     public function setUri(int|string $uri): void
@@ -21,9 +24,7 @@ class Tag
 
     public function setValue(string $key, int|string $value): void
     {
-        if ($value !== null) {
-            $this->$key = $value;
-        }
+        $this->$key = $value;
     }
 
     public function getUri(): int|string|false
