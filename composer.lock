@@ -66,20 +66,20 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "384af967d35b2162f69526c7276acadce534d0e1"
+                "reference": "2392d360fdf54ea253aa6c68cad1d4ba2e54e927"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/384af967d35b2162f69526c7276acadce534d0e1",
-                "reference": "384af967d35b2162f69526c7276acadce534d0e1",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/2392d360fdf54ea253aa6c68cad1d4ba2e54e927",
+                "reference": "2392d360fdf54ea253aa6c68cad1d4ba2e54e927",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2|^8.0"
+                "php": "^7.4|^8.0"
             },
             "conflict": {
                 "phpstan/phpstan-shim": "*"
@@ -120,20 +120,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-08-27T09:18:05+00:00"
+            "time": "2024-12-31T07:30:03+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.10.2",
+            "version": "3.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-                "reference": "86e5f5dd9a840c46810ebe5ff1885581c42a3017"
+                "reference": "1368f4a58c3c52114b86b1abe8f4098869cb0079"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/86e5f5dd9a840c46810ebe5ff1885581c42a3017",
-                "reference": "86e5f5dd9a840c46810ebe5ff1885581c42a3017",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/1368f4a58c3c52114b86b1abe8f4098869cb0079",
+                "reference": "1368f4a58c3c52114b86b1abe8f4098869cb0079",
                 "shasum": ""
             },
             "require": {
@@ -200,7 +200,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-07-21T23:26:44+00:00"
+            "time": "2024-12-11T16:04:26+00:00"
         }
     ],
     "aliases": [],
